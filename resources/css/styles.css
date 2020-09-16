@@ -24,7 +24,6 @@ ol {
 }
 
 .cat {
-  float: left;
   font-family: helvetica;
   font-size: 12px;
   font-weight: lighter;
@@ -34,16 +33,24 @@ ol {
 }
 
 .dog {
-  float: right;
  font-family: helvetica;
  font-size: 8px;
  font-weight: lighter;
  background-color: pink;
  border-style: dashed;
- color: white;
 }
 
 .potato {
   background-color: lightgreen;
   padding: 50px 25px 10px 5px;
+}
+
+img {
+  height:100px;
+  width:150px;
+}
+
+.boldme {
+  font-weight: bold;
+  font-size: 14px;
 }
